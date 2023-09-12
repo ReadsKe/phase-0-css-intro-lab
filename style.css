@@ -5,8 +5,9 @@ body {
 }
 #header
 {
-    display: flex;
+  display: flex;
   justify-content: center;
+  text-align: center;
 }
 .image
 {
@@ -14,7 +15,7 @@ body {
   justify-content: center;
 }
 
-a
+#header a
 {
   background-color: rgba(204, 196, 196, 0.908);
   padding-left: 10px;
@@ -25,17 +26,28 @@ a
 figcaption
 {
   font-size: small;
-  display: flex;
-  justify-content: center;
+  text-align: center;
+
+ 
 }
 #featured-property p
 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 800px;
-}
-#details
-{
+  margin-right: 550px;
+  margin-left: 550px;
+  text-align: center;
   
+
+}
+#details div
+{
+ display: flex;
+ float: left;
+ background-color: rgb(241, 75, 75);
+ justify-content: center;
+ width: 25%;
+ justify-content: space-around;
+ flex-direction: column;
+ text-align: center;
+
+
 }
