@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+#header
+{
+    display: flex;
+  justify-content: center;
+}
+.image
+{
+  display: flex;
+  justify-content: center;
+}
+
+a
+{
+  background-color: rgba(204, 196, 196, 0.908);
+  padding-left: 10px;
+  padding-right: 10px;
+
+
+}
+figcaption
+{
+  font-size: small;
+  display: flex;
+  justify-content: center;
+}
+#featured-property p
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+}
+#details
+{
+  
+}
